@@ -5,9 +5,13 @@ body{
   margin:0px;
   background: #fafafa;
   font-family: 'Titillium Web', sans-serif;
-
-
 }
+
+input{
+  width: 100%;
+  max-width: 700px;
+}
+
 
 
 .Headline{
@@ -17,6 +21,9 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  background: #FF4500;
+  margin-bottom: 25px;
 }
 
 .HeadlineMain{
