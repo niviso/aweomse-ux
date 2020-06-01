@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+  padding: 0px;
+  margin:0px;
+  background: #fafafa;
+  font-family: 'Titillium Web', sans-serif;
+
+
+}
+
+
+.Headline{
+  height: 400px;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeadlineMain{
+  font-size: 50pt;
+  font-weight: bolder;
+  margin: 0px;
+  padding:0px;
+
+}
+
+.HeadlineSecondary{
+  margin: 0px;
+  padding:0px;
+}
+
+.App{
+}
+
+.PlateWiggle{
+  width: 50%;
+  height: 20vw;
+  border: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  background: #fefefe;
+  color: rgba(0,0,0,0.4);
+  flex-direction: column;
+  padding: 11.3px;
+  transition: all 0.5s ease;
+  margin: auto auto;
+  animation: wiggle 5s infinite alternate;
+}
+
+.Plate{
+  width: 50%;
+  height: 20vw;
+  border: 1px solid rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 25px;
+  background: #fefefe;
+  color: rgba(0,0,0,0.4);
+  flex-direction: column;
+  padding: 11.3px;
+  transition: all 0.5s ease;
+  margin: auto auto;
+}
+
+
+@keyframes wiggle {
+  from {
+    transform: rotateZ(0.5deg);
+
+  }
+  to{
+    transform: rotateZ(-0.5deg);
+
+  }
+}
